@@ -4,7 +4,7 @@ const inputMessage = document.querySelector('.input-message');
 const chat = document.querySelector('.wrapper-chat');
 // const senderMessage = document.querySelector('.sender');
 // const serverMessage = document.querySelector('.server');
-const url = "wss://echo.websocket.org/";
+const url = "wss://echo.websocket.org";
 
 let websocket;
 
